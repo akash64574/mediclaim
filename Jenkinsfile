@@ -3,7 +3,6 @@ pipeline {
 agent any
 
 stages {
-/**Insurance-Backend Pipeline Job Build and Test stages **/
 stage('SCM Checkout') {
 steps {
 git url:'https://github.com/akash64574/mediclaim.git'
